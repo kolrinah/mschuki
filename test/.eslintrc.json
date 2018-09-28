@@ -1,0 +1,10 @@
+{
+    "extends": "@peakactivity/eslint-config-peakactivity",
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "no-unused-expressions"  : 0
+    }
+}

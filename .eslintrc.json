@@ -1,0 +1,6 @@
+{
+    "extends": "@peakactivity/eslint-config-peakactivity",
+    "env": {
+        "node": true
+    }
+}

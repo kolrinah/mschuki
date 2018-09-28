@@ -1,0 +1,57 @@
+{
+  "name": "ms-susi",
+  "description": "Provides calls to manage details of an invoice",
+  "repository": "",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "node scripts/preinstall.js",
+    "start": "node ./bin/www",
+    "pretest": "npm run lint",
+    "lint": "eslint --fix .",
+    "test": "mocha --recursive --exit",
+    "dev": "nodemon ./bin/www --exec \"npm run pretest && node\"",
+    "debug": "nodemon --inspect ./bin/www --exec \"npm run pretest && node\"",
+    "debug-brk": "nodemon  --inspect-brk ./bin/www --exec \"npm run pretest && node\"",
+    "debug-test": "mocha --inspect-brk --recursive"
+  },
+  "config": {
+    "build_server": false,
+    "npm_token": "a2e3a9eb-40b0-4238-abe3-78704e8c92ef"
+  },
+  "dependencies": {
+    "@peakactivity/omni-config": "^1.0.15",
+    "axios": "^0.18.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "eslint": "^3.19.0",
+    "express": "~4.15.5",
+    "jsonfile": "^4.0.0",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.0",
+    "newrelic": "^4.1.4",
+    "nodemon": "^1.17.3",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5",
+    "swagger-jsdoc": "^1.9.7",
+    "swagger-ui-express": "^2.0.15",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {    
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "chalk": "^2.0.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.1.0",
+    "node-mocks-http": "^1.6.7",
+    "rewire": "^3.0.2",
+    "sinon": "^4.5.0",
+    "string-width": "^2.0.0",
+    "supports-color": "^2.0.0"
+  }
+}

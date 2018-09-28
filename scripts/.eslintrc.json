@@ -1,0 +1,9 @@
+{
+    "extends": "@peakactivity/eslint-config-peakactivity",
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "env": {
+        "node": true
+    }
+}

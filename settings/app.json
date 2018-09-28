@@ -1,0 +1,8 @@
+{
+    "port": 3000,
+    "swaggerHost": "localhost:3000",
+    "enableNewRelic": false,
+    "newRelicAppName": "k8s-### MICROSERVICE_REPO_NAME ###-staging",
+    "newRelicLicenseKey": "InvalidKey",
+    "asapiAuthKey" : "numerao"
+}
